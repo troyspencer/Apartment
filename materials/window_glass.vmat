@@ -1,0 +1,32 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_standard.vfx"
+
+	//---- Translucent ----
+	F_GLASS 1
+	F_TRANSLUCENT 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.572549]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "[1.000000 1.000000 1.000000 1.000000]"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+	g_flGlassFresnelExponent "3.000"
+	g_flGlassFresnelMaxOpacity "0.500"
+	g_flGlassFresnelThickness "0.100"
+	TextureGlossiness "materials/default/default_gloss.tga"
+
+	//---- Normal Map ----
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Translucent ----
+	g_flOpacityScale "0.000"
+	TextureTranslucency "[1.000000 1.000000 1.000000 0.000000]"
+}

@@ -1,0 +1,29 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_standard.vfx"
+
+	//---- Specular ----
+	F_METALNESS_TEXTURE 1
+	F_SPECULAR 1
+
+	//---- Color ----
+	g_vColorTint "[0.000000 0.000000 0.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/default/default_color.tga"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+	g_vMetalnessRange "[0.000 1.000]"
+	g_vReflectanceRange "[0.000 1.000]"
+	TextureGlossiness "[0.447000 0.447000 0.447000 0.000000]"
+	TextureMetalness "[0.000000 0.000000 0.000000 0.000000]"
+	TextureReflectance "[0.026000 0.026000 0.026000 0.000000]"
+
+	//---- Normal Map ----
+	TextureNormal "materials/default/default_normal.tga"
+}
